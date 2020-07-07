@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Nomor Darurat Semarang</string>
+    <string name="todo">TODO</string>
+    <string name="imageButton1">imageButton1</string>
+    <string name="imageButton2">imageButton2</string>
+    <string name="imageButton3">imageButton3</string>
+    <string name="imageButton4">imageButton4</string>
+    <string name="imageButton5">imageButton5</string>
+    <string name="imageButton6">imageButton6</string>
+    <string name="imageButton7">imageButton7</string>
+    <string name="imageButton8">imageButton8</string>
+    <string name="imageButton9">imageButton9</string>
+    <string name="imageButton10">imageButton10</string>
+    <string name="imageButton11">imageButton11</string>
+    <string name="imageButton12">imageButton12</string>
+    <string name="imageButton13">imageButton13</string>
+    <string name="imageButton14">imageButton14</string>
+    <string name="imageButton15">imageButton15</string>
+    <string name="imageButton16">imageButton16</string>
+    <string name="imageButton17">imageButton17</string>
+    <string name="imageButton18">imageButton18</string>
+    <string name="imageButton19">imageButton19</string>
+    <string name="imageButton20">imageButton20</string>
+    <string name="imageButton131">imageButton131</string>
+    <string name="imageButton132">imageButton132</string>
+
+    <string name="title_profile">Muhammad Yusron Fathur Rozaq</string>
+    <string name="article_profile">
+        Mahasiswa Informatika UPGRIS\n\n
+        <b>Yusron biasa orang memangil ku, saya suka Traveling, Fotografi, Desain, dan Belajar Coding Pastinya. Motivasi saya Terus mencoba walau salalu gagal, Karna keberhasilan datang karna kita slalu berusaha.  </b>
+        \n</string>
+    <string name="article_profile2">
+        Detail</string>\n
+    <string name="article_profile3">
+
+        Lahir_______: <b>11 Januari 1998</b>\n
+        Tinggi_____ : <b>1,70 meter</b>\n
+        Alamat____ : <b>Dukuh Klitikan RT2 RW2, Kec. Kedungjati, Kab. Grobogan</b>
+        \n
+        Maps_____ : <b> https://www.google.com/maps/@-7.1564579,110.6395389,18.79z</b>
+        \n
+        Email_____ : <b>yusron11mg@gmail.com</b>\n
+        Instagram_ : <b>https://www.instagram.com/yusron_fr/?hl=idhttps://www.instagram.com/yusron_fr/?hl=id</b>\n
+        </string>
+    <string name="article_profile4">
+        Tugas dibuat oleh
+    </string>
+    <string name="article_profile5">
+       <b3> Nama: Muhammad Yusron Fathur Rozaq\n
+        NPM:17670009</b3>
+    </string>
+    <string name="UAS">UAS</string>
+    <string name="copyright_2020">Copyright 2020</string>
+    <string name="aplikasi_nomor_darurat_semarang">NOMOR DARURAT</string>
+    <string name="profile">Profile</string>
+    <string name="info">Info</string>
+    <string name="image">Image</string>
+    <string name="pengaduan_informasi_pln">Pengaduan dan Informasi PLN</string>
+
+    <string name="title_aplikasi">Nomor Darurat Semarang</string>
+    <string name="article_aplikasi">
+        by Muhammad Yusron FR\n\n
+        <b>Ini Adalah Sebuah Aplikasi Kumpulan Nomor-nomor Darurat yang harus di ketahui oleh masyarakat Kota Semarang.  </b>
+        \n</string>
+</resources>

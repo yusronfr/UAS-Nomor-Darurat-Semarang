@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ActivityHome">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/darurat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:text="@string/aplikasi_nomor_darurat_semarang"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_image"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="@dimen/padding_regular"
+            android:textStyle="bold"
+            android:textColor="#0C0C0C"
+            android:background="#FFEA00"
+            android:text="@string/image" />
+
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="@dimen/padding_regular"
+            android:textStyle="bold"
+            android:textColor="#0C0C0C"
+            android:background="#FFEA00"
+            android:text="@string/info" />
+
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="@dimen/padding_regular"
+            android:textStyle="bold"
+            android:textColor="#0C0C0C"
+            android:background="#FFEA00"
+            android:text="@string/profile" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_imageButton1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ambulanhebat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="Ambulance Hebat Semarang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#2196F3"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ambulan" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Ambulance Semarang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pemadam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Dinas Kebakaran"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/bandara" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Bandara Ahmad Yani"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#2196F3"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pdam" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pelayanan PDAM"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/operator" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pengaduan Ganguan Telepon"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pln" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/pengaduan_informasi_pln"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#2196F3"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/pmi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="PMI Semarang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/rs" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="RSUP Dr.Kariadi Semarang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/sar" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Kantor SAR Semarang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#2196F3"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/stasiun" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Stasiun KA Tawang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/terminal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Terminal Bus Terboyo"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/tol" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Informasi Jalan Tol Gayamsari"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton131"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/tol" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Informasi Jalan Tol Muktiharjo"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton132"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4CAF50"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/tol" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Informasi Jalan Tol Tembalang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#2196F3"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/wisata" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pariwisata"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/polisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Polsek Semarang Barat"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/polisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Polsek Semarang Selatan"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/polisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Polsek Semarang Tengah"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+            android:id="@+id/btn_imageButton18"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F44336"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/polisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Polsek Semarang Timur"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btn_imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F44336"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/polisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Polsek Semarang Utara"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageButton
+                android:id="@+id/btn_imageButton20"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#009688"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/polisi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Poltabes Semarang"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
